@@ -1,0 +1,32 @@
+{
+  "name": "pwbt",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Illés Tamás",
+  "license": "GPLv3",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "line-awesome": "^1.3.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "compile-css": "node-sass src/scss/styles.scss build/styles.css -w src/scss --output-style compressed",
+    "compile": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-react": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jquery": "^3.5.4",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "babel-loader": "^8.2.1",
+    "typescript": "^4.1.2",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

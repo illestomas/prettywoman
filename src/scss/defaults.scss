@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  position: relative;
+}
+
+i.la-bars {
+  font-size: 24px;
+  color: #fff;
+}
+
+.main {
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba($color: #000, $alpha: 0.5);
+}

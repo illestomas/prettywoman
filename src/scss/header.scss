@@ -1,0 +1,115 @@
+@import 'variables';
+@import 'mixins.scss';
+
+.header {
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+  transition: all 0.5s;
+}
+
+.logo {
+  height: 100px;
+  transition: all 0.5s;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.responsive-menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.responsive-menu-button > div {
+  cursor: pointer;
+}
+
+.menu img {
+  height: 20px;
+}
+
+.responsive-menu {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $primary_color;
+  z-index: -1;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.other {
+  background:$primary_color;
+}
+
+.logo-small {
+  height: 60px;
+}
+
+ul.menu {
+  padding: 30px 0 30px 30px;
+}
+
+ul.menu li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+ul.menu li.current_page_item a {
+  background-color:rgba($color: #000000, $alpha: 0.5);
+}
+
+ul.menu a {
+  @include button;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  border-top-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+}
+
+.n2-section-smartslider .nextend-bar {
+  text-align: left;
+}
+
+.n2-section-smartslider .nextend-bar span {
+  font-weight: 900 !important;
+  font-family: 'Epilogue', sans-serif !important;
+  font-size: 70px !important;
+}
+
+.nextend-bar {
+  text-align: left !important;
+  bottom: 0 !important;
+  left: 10% !important;
+}
+
+.nextend-bar > div {
+  background-color: $primary_color !important;
+}
+
+.n2-ow > div {
+  background-color: rgba($color: #000000, $alpha: 0) !important;
+}
+
+.responsive-menu-close {
+  margin-left: 30px;
+  border-radius: $radius;
+}
+
+.placeholder {
+  height: 500px;
+  width: 100% !important;
+}
+
+.placeholder img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
