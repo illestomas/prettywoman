@@ -1,12 +1,12 @@
-@import 'variables';
-@import 'mixins.scss';
+@import "variables";
+@import "mixins.scss";
 
 .header {
   padding: 15px;
   position: fixed;
   width: 100%;
   z-index: 100;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
   transition: all 0.5s;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .other {
-  background:$primary_color;
+  background: $primary_color;
 }
 
 .logo-small {
@@ -53,7 +53,7 @@
 }
 
 ul.menu {
-  padding: 30px 0 30px 30px;
+  padding: 15px 0 15px 15px;
 }
 
 ul.menu li {
@@ -62,7 +62,7 @@ ul.menu li {
 }
 
 ul.menu li.current_page_item a {
-  background-color:rgba($color: #000000, $alpha: 0.5);
+  background-color: rgba($color: #000000, $alpha: 0.5);
 }
 
 ul.menu a {
@@ -80,7 +80,7 @@ ul.menu a {
 
 .n2-section-smartslider .nextend-bar span {
   font-weight: 900 !important;
-  font-family: 'Epilogue', sans-serif !important;
+  font-family: "Epilogue", sans-serif !important;
   font-size: 70px !important;
 }
 
