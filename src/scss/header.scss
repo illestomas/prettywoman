@@ -108,6 +108,6 @@ ul.menu a {
 
 .placeholder img {
   width: 100%;
-  height: 100% !important;
+  max-height: 600px;
   object-fit: cover;
 }

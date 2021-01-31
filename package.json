@@ -19,7 +19,8 @@
     "watch-js": "webpack -w",
     "compile-js": "webpack --mode=production",
     "compile": "run-p compile-js compile-css",
-    "watch": "run-p watch-css watch-js"
+    "watch": "run-p watch-css watch-js",
+    "format": "prettier *.php"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
