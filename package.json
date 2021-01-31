@@ -17,6 +17,7 @@
     "compile-css": "node-sass src/scss/styles.scss build/styles.css --output-style compressed",
     "watch-css": "yarn compile-css -w src/scss",
     "watch-js": "webpack -w",
+    "watch": "run-p watch-css watch-js",
     "compile": "webpack"
   },
   "devDependencies": {

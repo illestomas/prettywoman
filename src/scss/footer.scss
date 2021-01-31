@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .footer {
   background-color: #333;
   color: #fff;
@@ -6,4 +8,14 @@
 
 .footer img {
   height: 100px;
+}
+
+.footer .menu {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .menu li a {
+  border-radius: $radius;
+  margin-right: 15px;
 }
